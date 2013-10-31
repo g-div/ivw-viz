@@ -1,0 +1,110 @@
+<div class="compare"><i class="icon icon-exchange"></i></div>
+<ul>
+	<li class="title-container">
+		<% if (typeof(Titel) != "undefined") { %>
+		Titel:
+		<div class="value">
+			<%= Titel %>
+		</li>
+		<% } %>
+	</li>
+
+	<li class="year">
+		<% if (typeof(Jahr) != "undefined") { %>
+		Jahr:
+		<div class="value">
+			<%= Jahr %> 
+		</li>
+		<% } %>
+	</li>
+
+	<li class="quartal">
+		<% if (typeof(Quartal) != "undefined") { %>
+			Quartal:
+			<div class="value">
+				<%= Quartal[Quartal.length-1] %>
+			</div>
+		<% } %>
+	</li>
+
+	<li class="abo">
+		<% if (typeof(Abo_gesamt) != "undefined") { %>
+			Abo:
+			<div class="value">
+				<%= Abo_gesamt %>
+			</div>
+		<% } %>
+	</li>
+
+	<li class="printed">
+		<% if (typeof(Druckauflage_gesamt) != "undefined") { %>
+			Auflage:
+			<div class="value">
+				<%= Druckauflage_gesamt %>
+			</div>
+		<% } %>
+	</li>
+
+	<li class="distribution">
+		<% if (typeof(Verbreitung) != "undefined") { %>
+			Verbreitung:
+			<div class="value">
+				<%= Verbreitung %>
+			</div>
+		<% } %>
+	</li>
+
+	<li class="sold">
+		<% if (typeof(Verkauf) != "undefined") { %>
+			Verkauf:
+			<div class="value">
+				<%= Verkauf %>
+			</div>
+		<% } %>
+	</li>
+
+	<li class="publisher">
+		<% if (typeof(Verlagsnummer) != "undefined") { %>
+			Verlag:
+			<div class="value">
+				<%= Verlagsnummer %>
+			</div>
+		<% } %>
+	</li>
+
+	<li class="type">
+		<% if (typeof(Erscheinungsweise) != "undefined") { %>
+			Erscheinungsweiße:
+			<div class="value">
+				<%= Erscheinungsweise %>
+			</div>
+		<% } %>
+	</li>
+
+	<li class="place">
+		<% if (typeof(Ort) != "undefined") { %>
+			Ort:
+			<div class="value">
+				<%= Ort %>
+			</div>
+		<% } %>
+	</li>
+
+	<li class="title_nr">
+		<% if (typeof("Titel_Nr") != "undefined") { %>
+			Titel Nr:
+			<div class="value">
+				<%= Titel_Nr %>
+			</div>
+		<% } %>
+	</li>
+
+	<li class="ivw_nr">
+		<% if (typeof("IVW_Nr") != "undefined") { %>
+			IVW:
+			<div class="value">
+				<%= IVW_Nr %>
+			</div>
+		<% } %>
+	</li>
+</ul>

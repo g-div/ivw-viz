@@ -1,0 +1,60 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/details\.sass}line{font-family:\000031}}
+html {
+  overflow-y: scroll;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/details\.sass}line{font-family:\000034}}
+#details-container {
+  min-height: 750px;
+  float: left;
+  width: 24%;
+  padding: 5px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/details\.sass}line{font-family:\0000310}}
+svg {
+  width: auto !important;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/details\.sass}line{font-family:\0000313}}
+#pie svg {
+  height: 320px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/details\.sass}line{font-family:\0000316}}
+#compare-area {
+  float: left;
+  padding: 30px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/details\.sass}line{font-family:\0000319}}
+#compare-area ul {
+  padding: 12px;
+  display: inline;
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/details\.sass}line{font-family:\0000323}}
+#compare-area ul > li {
+  float: left;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/details\.sass}line{font-family:\0000325}}
+#compare-area ul > li > ul > li {
+  float: none;
+  padding: 0;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/details\.sass}line{font-family:\0000329}}
+#chart {
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/details\.sass}line{font-family:\0000333}}
+#chart .nv-controlsWrap,
+#chart .nv-y .tick {
+  display: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/details\.sass}line{font-family:\0000338}}
+.icon {
+  float: right;
+}

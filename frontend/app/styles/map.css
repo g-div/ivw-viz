@@ -1,0 +1,35 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/map\.sass}line{font-family:\000031}}
+#map-container {
+  height: 500px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/map\.sass}line{font-family:\000034}}
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/map\.sass}line{font-family:\000038}}
+.countries {
+  fill: #aaaaaa;
+  stroke: white;
+  stroke-width: 1.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/map\.sass}line{font-family:\0000315}}
+.city {
+  fill-opacity: 0.5;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/map\.sass}line{font-family:\0000318}}
+.city.active {
+  fill-opacity: 1;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/g-div\/Data\/Dropbox\/mob\/wokspace\/ivw-frontend\/app\/sass\/map\.sass}line{font-family:\0000321}}
+.ui-slider {
+  width: 60%;
+  margin: 0 auto !important;
+}
