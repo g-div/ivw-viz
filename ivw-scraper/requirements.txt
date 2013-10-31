@@ -1,0 +1,9 @@
+argparse==1.2.1
+cssselect==0.8
+lxml==3.2.1
+mechanize==0.2.5
+pygeocoder==1.2.1
+pymongo==2.5.2
+pyquery==1.2.4
+requests==1.2.3
+wsgiref==0.1.2
